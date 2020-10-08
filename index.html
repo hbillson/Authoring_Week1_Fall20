@@ -4,48 +4,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Working with SASS and Modules</title>
 
-    <!-- css stuff -->
-    <!-- link to reset -->
-    <link rel="stylesheet" href="">
-    <title>Modules as a Concepts</title>
+    <!-- this has to be a css file -->
+    <link rel="stylesheet" href="css/master.css">
 </head>
 
 <body>
-    <h1>Fun with Modules!</h1>
-    <nav data-module="nav">
-        <!-- nav elements must have nav-item -->
-        <ul>
-            <li><a href="#" class="nav-item">1</a></li>
-            <li><a href="/2" class="nav-item">2</a></li>
-            <li><a href="#section3" class="nav-item">3</a></li>
-            <li><a href="#section4" class="nav-item">4</a></li>
-            <li><a href="#section5" class="nav-item">5</a></li>
-        </ul>
-    </nav>
+    <main id="app">
+        <h1 class="hidden">Welcome to my awesome app</h1>
 
-    <main>
-        <section id="section1" class="panel"></section>
-        <section id="section2" class="panel">panel 2</section>
-        <section id="section3" class="panel"></section>
-        <section id="section4" class="panel">panel 4</section>
-        <section id="section5" class="panel"></section>
+        <!-- this is an HTML component -->
+        <nav class="main-nav">
+            <li>
+                <a href="#" class="nav-item">item 1</a>
+            </li>
+
+            <li><a href="#" class="nav-item">item 2</a></li>
+            <li><a href="#" class="nav-item">item 3</a></li>
+            <li><a href="#" class="nav-item">item 4</a></li>
+            <li><a href="#" class="nav-item">item 5</a></li>
+        </nav>
+        <!-- end component -->
     </main>
 
-    <footer>
-        <p>here's some footer text</p>
+    <footer>this is a simple footer</footer>
 
-        <ul>
-            <li><a href="#" class="nav-item">1</a></li>
-            <li><a href="/2" class="nav-item">2</a></li>
-            <li><a href="#section3" class="nav-item">3</a></li>
-            <li><a href="#section4" class="nav-item">4</a></li>
-            <li><a href="#section5" class="nav-item">5</a></li>
-        </ul>
-    </footer>
-
-    <a id="to-top" href="#" class="nav-item">back to top</a>
+    <!-- script files always go here -->
+    <script type="module" src="js/main.js"></script>
 </body>
 
 </html>
