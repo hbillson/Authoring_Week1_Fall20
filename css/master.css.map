@@ -1,1 +1,16 @@
-{"version":3,"sourceRoot":"","sources":["../sass/modules/_mediaqueries.scss","../sass/modules/_main.scss","../sass/modules/_vars.scss","../sass/modules/_mixins.scss","../sass/modules/_nav.scss","../sass/modules/_footer.scss"],"names":[],"mappings":"AAAA,qCAEI,mCCCA,oCACA,eAEA,iBCLY,ODOZ,SACA,SAGJ,KACI,WACA,YEbA,cFesB,KAG1B,MACI,WACA,YEpBA,cFsBsB,IGvB1B,IACI,SAEA,cACI,mCAEA,sBDLJ,cCO0B,IDFtB,oBCKA,oDAIA,wBCfR,OACI,eACA,SACA,sBAEA","file":"master.css"}
+{
+    "version": 3,
+    "mappings": "ACAA,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;EAE/B,AAAA,IAAI,CAAC;IAAE,gBAAgB,EAAC,MAAM;GAAI;;;AAKtC,2BAA2B;AGL3B,AAAA,IAAI,CAAC;EACD,IAAI,EFAI,OAAO,EAAE,WAAW,EAAE,UAAU;EECxC,SAAS,EFAI,IAAI;EEEjB,gBAAgB,EFLJ,MAAM;EEOlB,MAAM,EAAE,CAAC;EACT,MAAM,EAAE,CAAC;CACZ;;AAED,AAAA,IAAI,CAAC;EACD,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EDbZ,aAAa,ECeS,IAAI;CAC7B;;AAED,AAAA,KAAK,CAAC;EACF,KAAK,EAAC,IAAI;EACV,MAAM,EAAC,IAAI;EDpBX,aAAa,ECsBS,GAAG;CAC5B;;ACxBD,AAAA,GAAG,CAAC;EACA,MAAM,EAAE,CAAC;CAgBZ;;AAjBD,AAGI,GAHD,CAGC,SAAS,CAAC;EACN,OAAO,EAAE,YAAY;EAAE,MAAM,EAAE,MAAM;EAErC,gBAAgB,EAAE,IAAI;EFL1B,aAAa,EEOa,GAAG;EFFzB,OAAO,EAAC,WAAC;CEMZ;;AAZL,AAWQ,GAXL,CAGC,SAAS,CAQL,CAAC,CAAC;EAAE,MAAM,EAAE,OAAO;EAAE,eAAe,EAAE,IAAI;CAAI;;AAXtD,AAeQ,GAfL,CAcC,MAAM,CACF,CAAC,CAAC;EAAE,KAAK,EAAE,IAAI;CAAI;;ACf3B,AAAA,KAAK,CAAC;EACF,OAAO,EAAE,YAAY;EACrB,OAAO,EAAE,IAAI;EACb,SAAS,EAAC,IAAI;CAEjB;;AALD,AAII,KAJC,CAID,UAAU,EAJd,KAAK,CAIW,cAAc,EAJ9B,KAAK,CAI2B,UAAU,CAAC;EAAE,MAAM,EAAE,CAAC;EAAE,OAAO,EAAE,CAAC;CAAI;;ACJtE,AAAA,MAAM,CAAC;EACH,QAAQ,EAAE,KAAK;EACf,MAAM,EAAE,CAAC;EACT,gBAAgB,EAAE,KAAK;EAEvB,KAAK,EAAE,KAAK;CACf",
+    "sources": [
+        "../sass/master.scss",
+        "../sass/modules/_mediaqueries.scss",
+        "../sass/modules/_vars.scss",
+        "../sass/modules/_mixins.scss",
+        "../sass/modules/_main.scss",
+        "../sass/modules/_nav.scss",
+        "../sass/modules/_users.scss",
+        "../sass/modules/_footer.scss"
+    ],
+    "names": [],
+    "file": "master.css"
+}
